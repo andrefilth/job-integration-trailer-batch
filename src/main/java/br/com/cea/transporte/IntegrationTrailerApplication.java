@@ -1,12 +1,12 @@
-package br.com.cea.transporte.batch;
+package br.com.cea.transporte;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JobIntegrationTrailerBatchApplication {
+public class IntegrationTrailerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JobIntegrationTrailerBatchApplication.class, args);
+		SpringApplication.run(IntegrationTrailerApplication.class, args);
 	}
 }
